@@ -1,0 +1,162 @@
+/* the styles for the elements */
+html
+{
+	background-image: -webkit-linear-gradient(left, #facd8a 0%, white 100%);
+	background-image: -webkit-linear-gradient(top, #facd8a 0%, white 100%);
+	background-image: -webkit-linear-gradient(right, #facd8a 0%, white 100%);
+	background-image: -webkit-linear-gradient(bottom, #facd8a 0%, white 100%);
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+	width:800px;
+	margin:0 auto;
+	border: solid 3px #931420;
+	background:#fffded;
+}
+/* the styles for the header */
+header
+{
+	border-bottom: solid 3px #931420;
+	background-image: -webkit-linear-gradient(left, #facd8a 0%, white 100%);
+	background-image: -moz-linear-gradient(top, #facd8a 0%, white 100%);
+	background-image: -o-linear-gradient(top, #facd8a 0%, white 100%);
+	background-image: linear-gradient(top, #facd8a 0%, white 100%);
+	padding-top:15px;
+}
+header img {
+	float: left;
+	position: relative;
+    left: 50px;
+}
+header h2
+{
+	margin:0px;
+	font-size:170%;
+	color:#800000;
+	margin-left:160px;
+}
+header h3
+{
+	font-size:130%;
+	margin-left:160px;
+}
+header span
+{
+	text-shadow: 2px 1px 3px #800000;
+}
+.menu
+{
+	width:100%;
+	height:60px;
+	text-align:center;
+}
+.headmenu
+{
+	margin:0px;
+	padding:0px;
+	display:inline-block;
+}
+.headmenu li
+{
+	float: left;
+    background: #931420;
+    height: 60px;
+    line-height: 60px;
+    width: 160px;
+    text-align: center;
+	position:relative;
+	font-weight:bold;
+}
+.inside 
+{
+	position:absolute;
+	right:0px;
+	display:none;
+}
+.headmenu a:link
+{
+	color:white;
+	display:block;
+	text-decoration:none;
+}
+.headmenu a:visited
+{
+	color:white;
+}
+.headmenu a:hover
+{
+	background:green;
+}
+.headmenu li:hover .inside
+{
+	display:block;
+}
+/* the styles for the section */
+main {
+	clear: left;
+	padding: 0px 20px 0px 20px;
+}
+.container1 
+{
+	float:right;
+	width:525px;
+}
+.container1 img{float:left;margin-left:12px;margin-bottom:15px;}
+.container1 .p1
+{
+	margin: 0px;
+    float: left;
+    width: 50%;
+}
+.t1
+{
+	display: block;
+    border-top: solid 2px;
+    line-height: 50px;
+    height: 34px;
+    margin: 0px;
+	margin-top:15px;
+}
+.container2
+{
+	float:left;
+	width:215px;
+}
+main h2
+{
+	font-size:130%;
+	color:#800000;
+}
+main a:visited
+{
+	color:blue;
+}
+main a:link
+{
+	color:blue;
+}
+main a:hover
+{
+	color:silver;
+}
+#cttext
+{
+	margin-left:40px;
+}
+
+/* the styles for the footer */
+footer
+{
+	text-align:center;
+	display: inline-block;
+    height: 50px;
+    width: 100%;
+    background: #a71b1b;
+    color: white;
+}
+footer p
+{
+	margin: 0px;
+    line-height: 50px;
+}
